@@ -3,11 +3,64 @@
 
 #include "pch.h"
 #include <iostream>
+#include "hero.h"
+float farenheit = 1;
+float celsuis = 1;
+
+
+//int convert()
+//{
+//
+//	std::cout << "enter a number in fareinheight to celsuis\n";
+//	std::cin >> celsuis;
+//	farenheit = (celsuis * 9 / 5) + 32;
+//	std::cout << farenheit << std::endl;
+//	system("pause");
+//	return farenheit;
+//}
+
+//int combinearrays(int arr1[3], int arr2[3])
+//{
+//	int total = 0;
+//
+//
+//	for (int i = 0; i < 3; i++)
+//	{
+//		total += arr1[i];
+//	}
+//
+//	for (int i = 0; i < 3; i++)
+//	{
+//		total += arr2[i];
+//	}
+//
+//	return total;
+//}
 
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	MyHero sean;
+	MyHero scene;
+	sean.Fight(sean);
+
+
+	//create a function
+	//that converts a temperature
+	//from celsuis to freedom units
+	//
+
+	//std::cout << "fareinheight to celsuis converter\n";
+	//system("pause");
+	//convert();
+
+	//int arr1[3] = { 1,1,1 };
+	//int arr2[3] = { 1,1,1 };
+	//std::cout << combinearrays(arr1, arr2);
+	//system("pause");
 }
+
+
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
